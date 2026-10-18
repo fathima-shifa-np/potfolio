@@ -674,8 +674,15 @@ section {
     font-size: 12px;
     margin: 0;
     overflow-wrap: anywhere;
+   
 }
-
+#mail{
+     color: var(--muted);
+    font-size: 12px;
+    margin: 0;
+    overflow-wrap: anywhere;
+ text-decoration: none;
+}
 
 .contact-form {
     height: 100%;
