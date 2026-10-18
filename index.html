@@ -1,0 +1,755 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Shifa NP | Developer Portfolio</title>
+
+    <meta
+      name="description"
+      content="Explore the portfolio, skills and projects of Shifa NP, a BCA student interested in web development."
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">
+          Shifa<span class="brand-dot">.</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <a href="#contact" class="btn btn-primary ms-lg-4 nav-btn">
+            Let's Talk
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <!-- Introduction -->
+
+          <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+            <p class="hero-label">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Shifa NP</span>
+            </h1>
+
+            <h2 class="hero-subtitle">BCA Student & Aspiring Web Developer</h2>
+
+            <p class="hero-description">
+              I enjoy creating responsive and user-friendly websites. I am
+              continuously learning new technologies and improving my web
+              development skills through practical projects.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                Explore My Work
+              </a>
+
+              <a href="#contact" class="btn btn-outline-light btn-lg">
+                Contact Me
+              </a>
+            </div>
+
+            <div class="hero-note">
+              <span class="status-dot"></span>
+              Always learning. Always growing.
+            </div>
+          </div>
+
+          <!-- Profile Image -->
+
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="profile-area">
+              <div class="profile-glow"></div>
+
+              <div class="profile-frame">
+                <img
+                  src="./assets/me.png"
+                  alt="Portrait of Shifa NP"
+                  class="profile-image"
+                />
+              </div>
+
+              <div class="floating-badge badge-one">
+                <span>💻</span> Web Development
+              </div>
+
+              <div class="floating-badge badge-two">
+                <span>✨</span> Creative Learner
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-decoration decoration-one"></div>
+      <div class="hero-decoration decoration-two"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <p class="section-label">GET TO KNOW ME</p>
+
+          <h2>About <span class="gradient-text">Me</span></h2>
+
+          <p class="section-description">
+            A little introduction about me and my journey.
+          </p>
+        </div>
+
+        <div class="row align-items-center gy-5 mt-3">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="about-image-box">
+              <img src="./assets/me.png" alt="Shifa NP" class="about-image" />
+
+              <div class="about-image-caption">
+                <h4>Shifa NP</h4>
+                <p>BCA Student</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left">
+            <h3 class="about-title">Learning Today, Building Tomorrow.</h3>
+
+            <p class="about-text">
+              I am a Bachelor of Computer Applications (BCA) student with an
+              interest in web development. I enjoy learning how websites work
+              and turning ideas into practical projects.
+            </p>
+
+            <p class="about-text">
+              I have practised HTML, CSS, JavaScript and Bootstrap by creating
+              mini projects. I am also exploring modern web technologies to
+              strengthen my development skills.
+            </p>
+
+            <p class="about-text">
+              My goal is to grow as a developer, gain practical experience and
+              build useful digital solutions.
+            </p>
+
+            <div class="about-details">
+              <div class="detail-box">
+                <span class="detail-icon">🎓</span>
+
+                <div>
+                  <h6>Education</h6>
+                  <p>Bachelor of Computer Applications</p>
+                </div>
+              </div>
+
+              <div class="detail-box">
+                <span class="detail-icon">💻</span>
+
+                <div>
+                  <h6>Interest</h6>
+                  <p>Web Development</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#skills" class="btn btn-primary mt-3">
+              Discover My Skills
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section id="skills" class="section-padding section-dark">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <p class="section-label">WHAT I KNOW</p>
+
+          <h2>My <span class="gradient-text">Skills</span></h2>
+
+          <p class="section-description">
+            Technologies I have explored and continue to practise.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <!-- Frontend -->
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="skill-card">
+              <div class="skill-icon">🎨</div>
+
+              <h4>Frontend Development</h4>
+
+              <p>Building and styling web interfaces.</p>
+
+              <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming -->
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="skill-card">
+              <div class="skill-icon">💻</div>
+
+              <h4>Programming</h4>
+
+              <p>Programming fundamentals and practice.</p>
+
+              <div class="skill-tags">
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks -->
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="skill-card">
+              <div class="skill-icon">⚛️</div>
+
+              <h4>Modern Web Technologies</h4>
+
+              <p>Learning and practising modern tools.</p>
+
+              <div class="skill-tags">
+                <span>React JS</span>
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+
+          <div
+            class="col-md-6 col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="skill-card">
+              <div class="skill-icon">⚙️</div>
+
+              <h4>Backend Technologies</h4>
+
+              <p>Exploring backend development and database integration.</p>
+
+              <div class="skill-tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+
+          <div
+            class="col-md-6 col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="skill-card">
+              <div class="skill-icon">🛠️</div>
+
+              <h4>Development Tools</h4>
+
+              <p>Tools I use while learning and developing.</p>
+
+              <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="skills-note text-center mt-4">
+          My skills are continuously growing through learning and hands-on
+          practice.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <p class="section-label">MY WORK</p>
+
+          <h2>Featured <span class="gradient-text">Projects</span></h2>
+
+          <p class="section-description">
+            A selection of mini projects I have worked on.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <!-- Netflix Clone -->
+
+          <div class="col-md-6 col-lg-6" data-aos="fade-up">
+            <div class="project-card">
+              <div class="project-visual netflix-visual">
+                <span class="project-number">01</span>
+
+                <div class="project-visual-content">
+                  <span class="project-symbol">N</span>
+                  <h3>NETFLIX</h3>
+                  <p>Movie Streaming UI</p>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">WEB DEVELOPMENT</p>
+
+                <h4>Netflix Clone</h4>
+
+                <p>
+                  A movie-streaming-inspired website interface created to
+                  practise web design and frontend development.
+                </p>
+
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <!-- Add your actual GitHub link here -->
+
+                <a href="https://demo-netflix-clone-eight.vercel.app/" class="project-link">
+                  View Project <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- BMI Calculator -->
+
+          <div
+            class="col-md-6 col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="project-card">
+              <div class="project-visual bmi-visual">
+                <span class="project-number">02</span>
+
+                <div class="bmi-demo">
+                  <span class="bmi-demo-label"> BMI CALCULATOR </span>
+
+                  <div class="bmi-demo-value">22.5</div>
+
+                  <span class="bmi-demo-status"> Example Interface </span>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">MINI PROJECT</p>
+
+                <h4>BMI Calculator</h4>
+
+                <p>
+                  A simple calculator that accepts height and weight to
+                  calculate Body Mass Index.
+                </p>
+
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <!-- Add your actual GitHub link here -->
+
+                <a href="https://bmi-calculator-iota-ashen.vercel.app/" class="project-link">
+                  View Project <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Calculator -->
+
+          <div class="col-md-6 col-lg-6" data-aos="fade-up">
+            <div class="project-card">
+              <div class="project-visual calculator-visual">
+                <span class="project-number">03</span>
+
+                <div class="calculator-demo">
+                  <div class="calculator-display">123 + 45</div>
+
+                  <div class="calculator-keys">
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span class="operator">÷</span>
+
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span class="operator">×</span>
+
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span class="operator">−</span>
+
+                    <span>0</span>
+                    <span>.</span>
+                    <span class="operator">=</span>
+                    <span class="operator">+</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-category">MINI PROJECT</p>
+                <h4>Calculator</h4>
+                <p>
+                  A basic calculator built to practise JavaScript logic, event
+                  handling and user interaction.
+                </p>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <!-- Add your actual GitHub link here -->
+                <a href="https://basic-calculator-delta-neon.vercel.app/" class="project-link">
+                  View Project <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+
+          <div
+            class="col-md-6 col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="project-card">
+              <div class="project-visual portfolio-visual">
+                <span class="project-number">04</span>
+
+                <div class="portfolio-demo">
+                  <div class="portfolio-demo-nav">
+                    <span>Shifa.</span>
+                    <span>Home&nbsp; About&nbsp; Skills</span>
+                  </div>
+
+                  <div class="portfolio-demo-body">
+                    <span>HELLO, I'M</span>
+                    <h3>Shifa NP</h3>
+                    <p>Web Development Learner</p>
+                    <div class="portfolio-demo-button">Explore My Work</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <p class="project-category">PERSONAL PROJECT</p>
+
+                <h4>Personal Portfolio</h4>
+
+                <p>
+                  A personal website designed to present my introduction, skills
+                  and projects using a responsive layout and animations.
+                </p>
+
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                </div>
+
+                <!-- Add your actual GitHub link here -->
+
+                <a href="#contact" class="project-link">
+                  View Project <span>↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section id="contact" class="section-padding section-dark">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <p class="section-label">GET IN TOUCH</p>
+
+          <h2>Let's <span class="gradient-text">Connect</span></h2>
+
+          <p class="section-description">
+            Have a question or opportunity? Feel free to reach out.
+          </p>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="contact-info">
+              <h3>Let's talk about your ideas.</h3>
+
+              <p>
+                I am interested in learning, collaborating and exploring
+                opportunities in web development.
+              </p>
+
+              <div class="contact-detail">
+                <span class="contact-icon">📧</span>
+
+                <div>
+                  <h6>Email</h6>
+                  <p>Add your email address</p>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <span class="contact-icon">💻</span>
+
+                <div>
+                  <h6>GitHub</h6>
+                  <p>Explore my development projects</p>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <span class="contact-icon">🌐</span>
+
+                <div>
+                  <h6>Location</h6>
+                  <p>Kerala, India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left">
+            <form id="contactForm" class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label"> Your Name </label>
+
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email" class="form-label"> Your Email </label>
+
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label for="subject" class="form-label"> Subject </label>
+
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    placeholder="What would you like to discuss?"
+                    required
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label for="message" class="form-label"> Message </label>
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    rows="5"
+                    placeholder="Write your message here..."
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg w-100">
+                    Send Message ↗
+                  </button>
+
+                  <p id="formNotice" class="form-notice" aria-live="polite"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="#home" class="footer-brand"> Shifa<span>.</span> </a>
+
+          <p>Learning, creating and growing one project at a time.</p>
+
+          <a href="#home" class="back-to-top"> Back to top ↑ </a>
+        </div>
+
+        <hr />
+
+        <p class="copyright">
+          © <span id="year"></span> Shifa NP. Built with passion and Bootstrap.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      // Initialise scroll animations
+
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 80,
+      });
+
+      // Automatically update the copyright year
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Close the mobile menu after clicking a navigation link
+
+      document
+        .querySelectorAll("#navbarMenu .nav-link")
+        .forEach(function (link) {
+          link.addEventListener("click", function () {
+            const menu = document.getElementById("navbarMenu");
+
+            if (menu.classList.contains("show")) {
+              bootstrap.Collapse.getOrCreateInstance(menu).hide();
+            }
+          });
+        });
+
+      // Contact form demonstration
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          document.getElementById("formNotice").textContent =
+            "The form design is ready! Connect an email service or backend to send messages.";
+        });
+    </script>
+  </body>
+</html>
+```
