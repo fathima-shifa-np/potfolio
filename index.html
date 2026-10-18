@@ -620,7 +620,7 @@
                   <input
                     type="text"
                     id="name"
-                    name="name"
+                    name="form_name"
                     class="form-control"
                     placeholder="Enter your name"
                     required
@@ -633,7 +633,7 @@
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="form_email"
                     class="form-control"
                     placeholder="Enter your email"
                     required
@@ -707,7 +707,7 @@
     <!-- AOS Animation -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>`
     <script>
       // Initialise scroll animations
 
@@ -736,14 +736,32 @@
         });
 
       // Contact form demonstration
-      document
+      /*document
         .getElementById("contactForm")
         .addEventListener("submit", function (event) {
           event.preventDefault();
 
           document.getElementById("formNotice").textContent =
             "The form design is ready! Connect an email service or backend to send messages.";
-        });
+        });*/
+
+        document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+(function(){
+   emailjs.init("eWgXbuAi_Si-ATXvp"); 
+})();
+    emailjs.sendForm('service_sjzuovc', 'template_b61nlhl', this)
+      .then(() => {
+        document.getElementById("formNotice").textContent = "Message sent successfully! I'll get back to you soon ✨";
+        document.getElementById("formNotice").style.color = "#4ade80"; // green
+        this.reset();
+      }, (error) => {
+        document.getElementById("formNotice").textContent = "Oops! Something went wrong. Try again.";
+        document.getElementById("formNotice").style.color = "#ef4444"; // red
+      });
+});
     </script>
   </body>
 </html>
