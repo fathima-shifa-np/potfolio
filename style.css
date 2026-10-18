@@ -669,12 +669,14 @@ section {
     font-size: 13px;
     margin-bottom: 5px;
 }
-.contact-detail p {
+.contact-detail p{
     color: var(--muted);
     font-size: 12px;
     margin: 0;
     overflow-wrap: anywhere;
 }
+
+
 .contact-form {
     height: 100%;
     padding: 30px;
